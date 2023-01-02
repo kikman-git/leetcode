@@ -1,1 +1,1 @@
-# Doing leetcode now :rocket:
+# Daily Leetcode challenge :rocket:
