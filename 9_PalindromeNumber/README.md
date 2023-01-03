@@ -5,7 +5,7 @@ Given an integer x, return true if x is a palindrome , and false otherwise.
 For example, 121 is a palindrome while 123 is not.
 
 ## Dump solution (my solution):
+* Get every digits by modulus num with 10
 * Make a temp array to store every digit
-* Divide the int by 10 until it is less than 0
 * compare last digit with first digit until middle length of array.
 * If all equal then it is an palindrome

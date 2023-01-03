@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package _9
 
 func isPalindrome(x int) bool {
 	if x < 0 {
@@ -25,11 +23,4 @@ func isPalindrome(x int) bool {
 		j--
 	}
 	return true
-}
-
-func main() {
-	tests := []int{123, 234, 214, 1, 111, 121, 1001}
-	for _, x := range tests {
-		fmt.Println(x, isPalindrome(x))
-	}
 }
