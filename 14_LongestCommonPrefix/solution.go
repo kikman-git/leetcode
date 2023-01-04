@@ -38,7 +38,7 @@ func longestCommonPrefix(strs []string) string {
 		if isCommonPrefix {
 			return shortestStr
 		}
-
+		
 		shortestStr = shortestStr[:len(shortestStr)-1]
 	}
 
